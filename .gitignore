@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Virtual Environment ----
+venv/
+env/
+.venv/
+
+# ---- Temporary or local config ----
+*.env
+.env
+.DS_Store
+
+# ---- Flask Runtime ----
+instance/
+*.log
+
+# ---- Uploaded images & testing files ----
+uploads/
+static/uploads/
+*.png
+*.jpg
+*.jpeg
+
+# ---- Model / Large Files (unless using Git LFS) ----
+*.h5
+*.pb
+*.pbtxt
+*.ckpt
+*.hdf5
+
+# ---- IDE/Editor ----
+.vscode/
+*.code-workspace
+.idea/
+
+# ---- System files ----
+Thumbs.db
+
+# ---- Cache ----
+*.cache
