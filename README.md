@@ -41,9 +41,17 @@ Diabetic_retinopathy/
 ## ▶️ How to Run Locally
 
 ```bash
-git clone https://github.com/sujeeth-viswanathan/diabetic-retinopathy-ml.git
-cd diabetic-retinopathy-ml
+git clone https://github.com/sujeeth-viswanathan/diabetic-retinopathy
+cd diabetic-retinopathy
 pip install -r requirements.txt
+
+
+### 📁 Create Uploads Directory
+
+Before running the application, create the folder where uploaded images will be stored temporarily:
+
+mkdir -p static/uploads
+
 python app.py
 
 Then go to → http://127.0.0.1:5000/
